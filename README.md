@@ -6,10 +6,10 @@ You need to have linux, a bash shell obviously a KDE with Plasma (I am on 5.24.5
 I am working currently on a gentoo machine, let me know if you have trouble.
 ## Installation
 in gentoo all I had to do was 
-'emerge kde-plasma-meta xdpyinfo'
+`emerge kde-plasma-meta xdpyinfo`
 Download the scripts and make them executable
-'chmod +x plasmasaveicons'
-'chmod +x plasmarestoreicons'
+`chmod +x plasmasaveicons`
+`chmod +x plasmarestoreicons`
 
 ## Usage and Funciont
 Download the scripts. Order the icons and widgets in a fashion you like. Then save this configuration with the **plasmasaveicons** script. It detects the screen resolution and writes the '~/.config/plasma-org.kde.plasma.desktop-appletsrc' to a file with the resolution as ending. So your settings don't get overwritten or "wrong" each time you switch a monitor or screen size. 
